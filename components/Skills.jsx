@@ -12,7 +12,7 @@ import Node from '../public/assets/skills/node.png'
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
-      <div className='max-w-[80%] mx-auto flex flex-col justify-center h-full'>
+      <div className='max-w-[90%] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p>
