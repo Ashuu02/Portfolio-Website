@@ -8,7 +8,6 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import Node from '../public/assets/skills/node.png'
-import c from '../public/assets/skills/c++.png'
 
 const Skills = () => {
   return (
