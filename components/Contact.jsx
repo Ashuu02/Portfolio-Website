@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../public/assets/profile-pic.png";
+import contactImg from "../public/assets/about.jpg";
 import Image from "next/dist/client/image";
 import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -22,7 +22,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl items-center text-center  justify-center hover:scale-105 ease-in duration-300"
-                  src={profilePic}
+                  src={contactImg}
                   alt="/"
                 />
               </div>
@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/9714cba4-f7ff-44aa-9ff5-9bf362b998a5"
                 method="POST"
                 enctype="multipart/form-data"
               >

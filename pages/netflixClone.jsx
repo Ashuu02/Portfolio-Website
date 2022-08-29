@@ -22,18 +22,25 @@ const netflix = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
+      <div className="max-w-[90%] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
+        <p className="text-xl tracking-widest font-bold uppercase text-[#5651e5]">
+          Project
+        </p>
+          <h2>Overview</h2><br />
           <p>
-            I built this application in React JS and is hosted on Vercel. This
-            app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management. I've used Tailwind-Css for styling the entire project.
+            <span className="font-bold">🎯Netflix Clone</span> 
+<br /><br />
+            📍Framework used - ReactJs . This app also uses useContext hook for app-wide state management.<br/>
+            📍Styling - TailwindCss. The project also features horizontal sliding and a featured selection.<br />
+            📍API - This application is pulling movie data from an the TMDB movie API and displaying different categories.<br />
+            📍Database - Firebase . This app features user authentication with firebase as well as the firestore cloud storage database. <br />
+            📍Hosted over - Vercel<br /><br />
+
+            <span className="py-2 font-semibold">Additional features - </span><br />
+            📌You can play some of the interesting videos related to the movie which are over YouTube.  <br />
+            📌I've used react-Youtube, Movie-trailer libraries for playing these clips. <br />
+            📌You can save the movies to watch later. This is implemented using Firestore Database. <br />
           </p>
           <a
             href="https://github.com/Ashuu02/Netflix-clone"
@@ -52,7 +59,7 @@ const netflix = () => {
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2 underline">Technologies</p>
+            <p className="text-center font-bold pb-2 underline cursor-auto hover:scale-110">Technologies</p>
             <div className="flex items-center justify-center my-4 ">
               <div className="p-1">
                 <RiRadioButtonFill className="ml-3 m-1" />
@@ -85,6 +92,9 @@ const netflix = () => {
               </p>
               <p className="text-gray-600 font-semibold py-2 flex justify-center items-center">
                 IMDB API
+              </p>
+              <p className="text-gray-600 font-semibold py-2 flex justify-center items-center">
+                Node Js
               </p>
             </div>
           </div>
