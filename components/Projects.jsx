@@ -3,8 +3,9 @@ import Image from "next/image";
 import netflix from "../public/assets/Project/netflix-clone.png";
 import Link from "next/link";
 import Projectitem from "./Projectitem";
-import krypt from "../public/assets/Project/krypt.png"
-import expenseTracker from "../public/assets/Project/expense-tracker.png"
+import krypt from "../public/assets/Project/krypt.png";
+import expenseTracker from "../public/assets/Project/expense-tracker.png";
+import portfolioPic from "../public/assets/Project/portfolioPic1.png";
 
 const Projects = () => {
   return (
@@ -29,6 +30,11 @@ const Projects = () => {
             title={"Expense-tracker"}
             backgroundImg={expenseTracker}
             projectUrl="/expenseTracker"
+          />
+          <Projectitem
+            title={"Portfolio-Website"}
+            backgroundImg={portfolioPic}
+            projectUrl="/portfolioProject"
           />
         </div>
       </div>
