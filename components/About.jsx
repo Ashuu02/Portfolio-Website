@@ -18,15 +18,14 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600"> I love to design and build.🎉</p>
           <p className="py-2 text-gray-600">
-            I am a Dedicated and detail-oriented Web-dev learner. I like to
-            paint watch movies, Binge OTT platforms and do some leetcoding once
-            in a while. I am experienced in <span className="font-semibold">C++, Vanilla-JS, TailwindCss, ReactJs and
+            You could call me a Dedicated and detail-oriented Web-dev learner. An avid painter, who likes to watch movies and Binge OTT platforms whilst do some leetcoding once
+            in a while. I have command over <span className="font-semibold">C++, Vanilla-JS, TailwindCss, ReactJs and
             trying NextJs, Blockchain development</span>  simultaneosly. I have a
             special interest in achieving the millennial market.
             <p className="py-2 text-gray-600">
               Fascinated with how our code is rendered before our eyes,{" "}
               <span className="font-bold">Front-end development</span> really
-              fascinates me. Currently I am spending time with <span className="font-semibold">React, Firebase</span> and learning new technologies along the way..😁
+              fancies me. Currently I spend time with <span className="font-semibold">React, Firebase</span> and learning new technologies along the way..😁
             </p>
           </p>
           <Link href="/#projects">
