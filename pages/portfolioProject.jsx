@@ -41,8 +41,7 @@ const krypt = () => {
             <span className="py-2 font-semibold">Additional features - </span><br />
             📌Cool feature is - The resume will be rendered on the screen using IPFS😉 <br />
             📌Amazing sliding and scrolling effects. <br />
-            📌I've used lazy loading for client side rendering. <br />
-            📌You can save the movies to watch later. This is implemented using Firestore Database. <br />  <br />
+            📌I've used lazy loading for client side rendering. <br />  <br />
           </p>
           <a
             href="https://github.com/Ashuu02/Portfolio-Website
