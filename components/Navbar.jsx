@@ -143,7 +143,6 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
                 <li onClick={() => setNav(false)} className="py-3 text-sm">
                   <a
                     href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
@@ -153,7 +152,7 @@ const Navbar = () => {
                     Resume/CV
                   </a>
                 </li>
-              </Link>
+              
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Contact
