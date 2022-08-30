@@ -50,7 +50,7 @@ const netflix = () => {
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 shadow-md shadow-gray-500">Code</button>
           </a>
           <a
-            href="netflixashu.vercel.app/"
+            href="https://netflixashu02.vercel.app"
             target="_blank"
             rel="noreferrer"
           >

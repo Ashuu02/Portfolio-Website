@@ -55,7 +55,7 @@ const krypt = () => {
             </button>
           </a>
           <a
-            href="https://ashutosh02.vercel.app/"
+            href="https://ashutosh-shimpi.vercel.app/"
             target="_blank"
             rel="noreferrer"
             // className="text-center justify-center flex items-center"

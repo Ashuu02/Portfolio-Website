@@ -48,7 +48,7 @@ const expenseTracker = () => {
   <br />
           </p>
           <a
-            href="https://github.com/Ashuu02/Krypt"
+            href="https://github.com/Ashuu02/Expense-Tracker-using-React"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +57,7 @@ const expenseTracker = () => {
             </button>
           </a>
           <a
-            href="https://lustrous-banoffee-1bd2a5.netlify.app/"
+            href="https://expense-tracker-react-ashu.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
             // className="text-center justify-center flex items-center"
@@ -66,11 +66,7 @@ const expenseTracker = () => {
               Demo
             </button>
           </a>
-          <a href="https://drive.google.com/file/d/17MXrTKNDxMjg3eUZTOGqJGyhMN4sH8Wg/view" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 hover:scale-105 shadow-md shadow-gray-500">
-              Metamask-Transaction Snaps
-            </button>
-          </a>
+         
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
