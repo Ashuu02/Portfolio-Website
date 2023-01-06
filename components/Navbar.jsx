@@ -64,7 +64,8 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a
-                href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+//                 href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+                href="https://drive.google.com/drive/u/0/my-drive"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -145,7 +146,8 @@ const Navbar = () => {
               </Link>
                 <li onClick={() => setNav(false)} className="py-3 text-sm">
                   <a
-                    href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+//                     href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+                    href="https://drive.google.com/drive/u/0/my-drive"
                     target="_blank"
                     rel="noreferrer"
                   >
