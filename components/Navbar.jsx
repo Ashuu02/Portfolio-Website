@@ -65,10 +65,11 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a
 //                 href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
-                href="https://drive.google.com/file/d/1gKCVCXaXhh04X2MnpKQp2Oz06cJGDEEM/view?usp=sharing"
+                href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
+                
                 Resume/CV
               </a>
             </li>
@@ -147,7 +148,7 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className="py-3 text-sm">
                   <a
 //                     href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
-                    href="https://drive.google.com/file/d/1gKCVCXaXhh04X2MnpKQp2Oz06cJGDEEM/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                   >
