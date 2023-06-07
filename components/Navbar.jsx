@@ -203,7 +203,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <a
-                  href="https://drive.google.com/file/d/1tGZG6gglkj0L-YTrqFRyDRvKy4aedFww/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
