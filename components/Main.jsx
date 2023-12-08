@@ -60,7 +60,7 @@ const Main = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1um3u9ZhuSyBPQ9I__VdsOuqsIa6R6RQn/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >

@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -64,12 +64,11 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a
-//                 href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
-                href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
+                //                 href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+                href="https://drive.google.com/file/d/1um3u9ZhuSyBPQ9I__VdsOuqsIa6R6RQn/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
               >
-                
                 Resume/CV
               </a>
             </li>
@@ -145,17 +144,17 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-                <li onClick={() => setNav(false)} className="py-3 text-sm">
-                  <a
-//                     href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
-                    href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Resume/CV
-                  </a>
-                </li>
-              
+              <li onClick={() => setNav(false)} className="py-3 text-sm">
+                <a
+                  //                     href="https://ipfs.io/ipfs/bafkreif2x6eyqrptcl2no5733b7hgemxcbbcqlytc47onteqjths5b7afe"
+                  href="https://drive.google.com/file/d/1um3u9ZhuSyBPQ9I__VdsOuqsIa6R6RQn/view?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume/CV
+                </a>
+              </li>
+
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-3 text-sm">
                   Contact
@@ -203,7 +202,7 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <a
-                  href="https://drive.google.com/file/d/1bgQ0w223K95uXtf3I7hAzTQLy_AUCMZS/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1um3u9ZhuSyBPQ9I__VdsOuqsIa6R6RQn/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                 >
