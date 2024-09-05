@@ -3,8 +3,26 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn, FaTwitch, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const Main = () => {
+
+  const [title, setTitle] = useState('Product Manager');
+  const titles = ['Product Manager', 'Product Designer'];
+
+  // Use effect to handle the text rotation
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTitle(prevTitle => 
+        prevTitle === titles[0] ? titles[1] : titles[0]
+      );
+    }, 1000);
+
+    // Clear the interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+  
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
@@ -16,7 +34,7 @@ const Main = () => {
             Hi, I'm <span className="text-[#5651e5]">Ashutosh</span>
           </h1>
           <h1 className="py-2 text-gray-700 font-bold">
-            A Front-End Web Developer
+            {title}
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I'm a front-end dev specialized in building, designing and
