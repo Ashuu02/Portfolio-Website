@@ -16,7 +16,7 @@ const Main = () => {
       setTitle(prevTitle => 
         prevTitle === titles[0] ? titles[1] : titles[0]
       );
-    }, 1000);
+    }, 2500);
 
     // Clear the interval on component unmount
     return () => clearInterval(intervalId);
