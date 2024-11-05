@@ -13,19 +13,11 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            {" "}
-            I am not your normal developer.{" "}
-          </p>
-          <p className="py-2 text-gray-600"> I love to design and build.🎉</p>
-          <p className="py-2 text-gray-600">
-            You could call me a Dedicated and detail-oriented Web-dev learner. An avid painter, who likes to watch movies and Binge OTT platforms whilst do some leetcoding once
-            in a while. I have command over <span className="font-semibold">C++, Vanilla-JS, TailwindCss, ReactJs and
-            trying NextJs, Blockchain development</span>  simultaneosly. I have a
-            special interest in achieving the millennial market.
+An aspiring Product Manager with a strong background in product design and strategy. My experience includes roles as a Software Engineer, Research Intern, and Associate Product Manager, giving me a comprehensive view of product development from wireframing to deployment to client/customer interaction. I focus on creating user-friendly and visually appealing products. My data science background has made me adept with data analytics, allowing me to make informed, data-driven decisions. I am eager to take on new challenges and contribute to innovative solutions.
             <p className="py-2 text-gray-600">
-              Fascinated with how our code is rendered before our eyes,{" "}
-              <span className="font-bold">Front-end development</span> really
-              fancies me. Currently I spend time with <span className="font-semibold">React, Firebase</span> and learning new technologies along the way..😁
+                Let's Connect! -<br />
+                ashushimpi0211@gmail.com<br />
+                +1-9196385990
             </p>
           </p>
           <Link href="/#projects">
